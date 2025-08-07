@@ -9,7 +9,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'https://copilot-rust.vercel.app/',
+  'https://copilot-rust.vercel.app',
 ];
 
 app.use(
