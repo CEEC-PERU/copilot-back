@@ -6,7 +6,11 @@ const authRoutes = require('./routes/authRoutes');
 const app = express();
 
 // Permitir CORS solo para localhost:3000 y localhost:3001 (puedes agregar más si lo necesitas)
-const allowedOrigins = ['http://localhost:3000', 'http://localhost:3001'];
+const allowedOrigins = [
+  'http://localhost:3000',
+  'http://localhost:3001',
+  'https://copilot-rust.vercel.app/',
+];
 
 app.use(
   cors({
